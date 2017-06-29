@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:text="Loan Taken"
+        android:id="@+id/lblLoanTakenHolder"        
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:textSize="10dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+    <TextView
+        android:text=""
+        android:id="@+id/lblLoanTaken"
+        android:paddingLeft="16dp"
+        android:minWidth="100dip"
+        android:textSize="16dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+    <TextView
+        android:text="Initial Amount Deposited"
+        android:id="@+id/lblInitialStartupAmountHolder"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:textSize="10dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+    <TextView
+        android:text=""
+        android:id="@+id/lblInitialStartupAmount"
+        android:paddingLeft="16dp"
+        android:minWidth="100dip"
+        android:textSize="16dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+    <TextView
+        android:text="Interest Rate for Loan Taken"
+        android:id="@+id/lblInterestTakenHolder"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:textSize="10dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+    <TextView
+        android:text=""
+        android:id="@+id/lblInterestTaken"
+        android:paddingLeft="16dp"
+        android:minWidth="100dip"
+        android:textSize="16dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+    <TextView
+        android:text="Interest Rate for Loan Taken"
+        android:id="@+id/lblRentReceivedHolder"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:textSize="10dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+    <TextView
+        android:text="Interest Rate %"
+        android:id="@+id/lblRentReceived"
+        android:paddingLeft="16dp"
+        android:minWidth="100dip"
+        android:textSize="16dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+</LinearLayout>

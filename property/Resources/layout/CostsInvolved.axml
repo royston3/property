@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:text="Total Expenses (after rent)"
+                android:id="@+id/lblTotalExpensesAfterRentYearlyHolder"
+                android:paddingTop="16dp"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:textSize="10dp"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text=""
+                android:id="@+id/lblTotalExpensesAfterRent"
+                android:paddingLeft="16dp"
+                android:minWidth="100dip"
+                android:textSize="16dp"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="Total Expenses Yearly"
+                android:id="@+id/lblTotalExpensesYearlyHolder"
+                android:paddingTop="16dp"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:textSize="10dp"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text=""
+                android:id="@+id/lblTotalExpenses"
+                android:paddingLeft="16dp"
+                android:minWidth="100dip"
+                android:textSize="16dp"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="Interest Repayment for Loan"
+                android:paddingLeft="24dp"
+                android:id="@+id/lblInterestForLoanHolder"
+                android:paddingTop="16dp"
+                android:paddingBottom="8dp"
+                android:textSize="10dp"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text=""
+                android:id="@+id/lblInterestForLoan"
+                android:paddingLeft="32dp"
+                android:minWidth="100dip"
+                android:textSize="16dp"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="Property Management Fees"
+                android:paddingLeft="24dp"
+                android:id="@+id/lblPropertyManagementFeesHolder"
+                android:paddingTop="16dp"
+                android:paddingBottom="8dp"
+                android:textSize="10dp"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text=""
+                android:id="@+id/lblPropertyManagementFees"
+                android:paddingLeft="32dp"
+                android:minWidth="100dip"
+                android:textSize="16dp"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="Land Rates"
+                android:id="@+id/lblLandRateFeesHolder"
+                android:paddingLeft="24dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="8dp"
+                android:textSize="10dp"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text=""
+                android:id="@+id/lblLandRateFees"
+                android:paddingLeft="32dp"
+                android:minWidth="100dip"
+                android:textSize="16dp"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="Rent Loss Insurance"
+                android:paddingLeft="24dp"
+                android:id="@+id/lblRentLossInsuranceHolder"
+                android:paddingTop="16dp"
+                android:paddingBottom="8dp"
+                android:textSize="10dp"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text=""
+                android:id="@+id/lblRentLossInsurance"
+                android:paddingLeft="32dp"
+                android:minWidth="100dip"
+                android:textSize="16dp"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="House Insurance"
+                android:paddingLeft="24dp"
+                android:id="@+id/lblHouseInsuranceHolder"
+                android:paddingTop="16dp"
+                android:paddingBottom="8dp"
+                android:textSize="10dp"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text=""
+                android:id="@+id/lblHouseInsurance"
+                android:paddingLeft="32dp"
+                android:minWidth="100dip"
+                android:textSize="16dp"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="Miscellaneous Expenses (Plumbing, Improvements etc.)"
+                android:paddingLeft="24dp"
+                android:id="@+id/lblMiscellaneousFeesHolder"
+                android:paddingTop="16dp"
+                android:paddingBottom="8dp"
+                android:textSize="10dp"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text=""
+                android:id="@+id/lblMiscellaneousFees"
+                android:paddingLeft="32dp"
+                android:minWidth="100dip"
+                android:textSize="16dp"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text="Accountant Fees"
+                android:id="@+id/lblAccountantFeesHolder"
+                android:paddingLeft="24dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="8dp"
+                android:textSize="10dp"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:text=""
+                android:id="@+id/lblAccountantFees"
+                android:paddingLeft="32dp"
+                android:minWidth="100dip"
+                android:textSize="16dp"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

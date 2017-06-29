@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_below="@id/toolbar"
+        android:gravity="top">
+       <TextView
+            android:text="Rent Received"
+            android:id="@+id/lblRentReivedHolder"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textSize="10dp"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+      <EditText
+          android:id="@+id/txtRentReceived"
+          android:minWidth="100dip"
+          android:textSize="16dp"
+          android:inputType="number"
+          android:singleLine="true"
+          android:layout_height="wrap_content"
+          android:layout_width="match_parent"
+          android:hint="$500.00" />
+        <ImageButton
+            android:id="@+id/btnNextRentForm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_right_new" />        
+    </LinearLayout>
+</RelativeLayout>

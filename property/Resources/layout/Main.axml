@@ -1,7 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
-</LinearLayout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_below="@id/toolbar"
+        android:gravity="top">
+        <TextView
+            android:text="Purchase Price"
+            android:id="@+id/lblPurchasePrice"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textSize="10dp"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+        <EditText
+            android:id="@+id/txtPurchasePrice"
+            android:minWidth="100dip"
+            android:textSize="16dp"
+            android:inputType="number"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="$100,000.00" />
+        <TextView
+            android:text="% Down Payment"
+            android:id="@+id/lblDownPayment"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textSize="10dp"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+        <EditText
+            android:id="@+id/txtDownPayment"
+            android:minWidth="100dip"
+            android:textSize="16dp"
+            android:inputType="number"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="20%" />
+        <TextView
+            android:text="Interest Rate %"
+            android:id="@+id/lblInterestRate"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textSize="10dp"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+        <EditText
+            android:id="@+id/txtInterestRate"
+            android:minWidth="100dip"
+            android:textSize="16dp"
+            android:inputType="number"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="5.19%" />
+        <ImageButton
+            android:id="@+id/btnNext_PropertyForm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_right_new"
+            android:onClick="sendMessage" />
+    </LinearLayout>
+</RelativeLayout>

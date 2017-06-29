@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <TextView
+        android:text="Sell after (period in years)"
+        android:id="@+id/lblSellAfterHolder"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:textSize="10dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+  <TextView
+      android:text="1 year"
+      android:id="@+id/lblSellAfter"
+      android:paddingLeft="16dp"
+      android:minWidth="100dip"
+      android:textSize="16dp"
+      android:singleLine="true"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent" />
+  <TextView
+        android:text="AmountInvested"
+        android:id="@+id/lblAmountInvestedHolder"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:textSize="10dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+  <TextView
+      android:text=""
+      android:id="@+id/lblAmountInvested"
+      android:paddingLeft="16dp"
+      android:minWidth="100dip"
+      android:textSize="16dp"
+      android:singleLine="true"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent" />
+  <TextView
+        android:text="Appreciation Value (3% in NZ)"
+        android:id="@+id/lblHousePriceAppreciationHolder"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:textSize="10dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+  <TextView
+      android:text=""
+      android:id="@+id/lblHousePriceAppreciation"
+      android:paddingLeft="16dp"
+      android:minWidth="100dip"
+      android:textSize="16dp"
+      android:singleLine="true"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent" />
+  <TextView
+        android:text="Total Made after Sell"
+        android:id="@+id/lblTotalMadeAfterSellHolder"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:textSize="10dp"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+  <TextView
+      android:text=""
+      android:id="@+id/lblTotalMadeAfterSell"
+      android:paddingLeft="16dp"
+      android:minWidth="100dip"
+      android:textSize="16dp"
+      android:singleLine="true"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent" />
+</LinearLayout>
